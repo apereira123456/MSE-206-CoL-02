@@ -61,7 +61,7 @@ text(1, 3904, '$\bar{\Delta H_B^m} = 3,904 \ J/mol \longrightarrow$', 'Interpret
 H_A = 193.81 + 2642.98 * X_B^2;
 
 f5 = figure;
-fplot(H_A, [0,1])
+fplot(H_A, [0,0.5])
 
 title('Relative Partial Molar Enthalpy of Mixing', 'Interpreter', 'latex')
 xlabel('$X_B$', 'Interpreter', 'latex')
